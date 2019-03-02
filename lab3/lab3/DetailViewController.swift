@@ -16,6 +16,7 @@ class DetailViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         if let name = imageName {
             imageView.image = UIImage(named: name)
+            print(name)
         }
     }
     

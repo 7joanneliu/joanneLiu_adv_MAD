@@ -15,6 +15,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     
 //    var leafImages=[String]()
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -99,10 +100,8 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showDetail"{
             let indexPath = collectionView?.indexPath(for: sender as! CollectionViewCell)
             let detailVC = segue.destination as! DetailViewController
             detailVC.imageName = leafImages[(indexPath?.row)!]
-        }
     }
 }
