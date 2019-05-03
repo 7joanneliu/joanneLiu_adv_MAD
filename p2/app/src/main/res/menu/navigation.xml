@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_weather"
+        android:icon="@drawable/sun"
+        android:title="@string/title_weather" />
+
+    <item
+        android:id="@+id/navigation_topack"
+        android:icon="@drawable/lug"
+        android:title="@string/title_topack" />
+
+    <item
+        android:id="@+id/navigation_remember"
+        android:icon="@drawable/plane"
+        android:title="@string/title_remember" />
+
+</menu>
